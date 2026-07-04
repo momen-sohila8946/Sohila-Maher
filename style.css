@@ -1,0 +1,92 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(180deg,#fffdf9,#fdf1f4,#f8ece4);
+color:#5b4b4b;
+}
+
+header{
+text-align:center;
+padding:70px 20px;
+}
+
+header h1{
+font-family:'Dancing Script',cursive;
+font-size:60px;
+color:#d97b95;
+}
+
+header p{
+margin:20px 0;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#d97b95;
+color:white;
+text-decoration:none;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#c96d87;
+}
+
+.counter{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:25px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.counter h2{
+color:#d97b95;
+margin-bottom:10px;
+}
+
+#timer{
+font-size:28px;
+font-weight:bold;
+margin-top:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#d97b95;
+}
+
+footer{
+text-align:center;
+padding:30px;
+margin-top:40px;
+background:white;
+}
